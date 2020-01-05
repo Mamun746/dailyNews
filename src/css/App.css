@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main_search{
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid lightslategray;
+}
+
+.main_search input{
+    border-radius: 25px;
+    font-size: 20px;
+    border: 1px solid lightslategray;
+    color: black;
+    padding: 10px;
+}
