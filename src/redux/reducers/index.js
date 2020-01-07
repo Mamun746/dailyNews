@@ -1,9 +1,11 @@
 import {combineReducers} from 'redux'
 import {newsReducer} from './newsReducer'
+import {galleryReducer} from './galleryReducer'
 
 
 const rootReducer=combineReducers({
-    news:newsReducer
+    news:newsReducer,
+    gallery:galleryReducer
 
 })
 
